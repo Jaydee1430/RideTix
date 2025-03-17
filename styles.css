@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Black background for the entire body */
+    color: #000000; /* Default text color to white */
+}
+
+header {
+    background-color: #000261; /* Blue header */
+    color: #ffffff !important; /* White text */
+    padding: 25px 30px; /* Increased padding for more height */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center; /* Center items vertically */
+}
+
+.logo img {
+    height: 50px; /* Adjust logo height as needed */
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    height: 500px;
+    background-color: #fdfdfd; /* Black background for sections */
+}
+
+section h2 {
+    color: #ffffff; /* White headings */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000261; /* Blue footer */
+    color: #ffffff; /* White text */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
